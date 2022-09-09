@@ -31,7 +31,7 @@ struct NavigationBarView: View {
                     Circle()
                         .fill(Color.red)
                         .frame(width: 14, height: 14, alignment: .center)
-                        .offset(x: 13, y: -10)
+                        .offset(x: -20, y: -10)
                 })
             } //: BUTTON
         } //: HSTACK
