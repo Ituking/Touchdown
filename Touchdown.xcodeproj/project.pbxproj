@@ -22,6 +22,7 @@
 		C7D3679928CD121400845D49 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D3679828CD121400845D49 /* PlayerModel.swift */; };
 		C7D3679B28CD130D00845D49 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D3679A28CD130D00845D49 /* CodableBundleExtension.swift */; };
 		C7D3679D28CD17F800845D49 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D3679C28CD17F800845D49 /* FeaturedItemView.swift */; };
+		C7D3679F28CD1A9800845D49 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D3679E28CD1A9700845D49 /* FeaturedTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C7D3679828CD121400845D49 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		C7D3679A28CD130D00845D49 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		C7D3679C28CD17F800845D49 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		C7D3679E28CD1A9700845D49 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				C7033E3428CABF2E002ADD1E /* NavigationBarView.swift */,
 				C7033E3628CACB95002ADD1E /* LogoView.swift */,
 				C7D3679C28CD17F800845D49 /* FeaturedItemView.swift */,
+				C7D3679E28CD1A9700845D49 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				C7033E1128C8F026002ADD1E /* TouchdownApp.swift in Sources */,
 				C7033E3128CA858E002ADD1E /* Constant.swift in Sources */,
 				C7033E3528CABF2E002ADD1E /* NavigationBarView.swift in Sources */,
+				C7D3679F28CD1A9800845D49 /* FeaturedTabView.swift in Sources */,
 				C7D3679928CD121400845D49 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
