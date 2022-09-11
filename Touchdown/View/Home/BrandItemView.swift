@@ -18,6 +18,11 @@ struct BrandItemView: View {
         Image(brand.image)
             .resizable()
             .scaledToFit()
+            .padding()
+            .background(Color.white.cornerRadius(12))
+            .background(
+                RoundedRectangle(cornerRadius: 12).stroke(Color.gray, lineWidth: 1)
+            )
     }
 }
 
