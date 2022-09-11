@@ -31,7 +31,7 @@ struct ContentView: View {
                         
                         TitleView(title: "Helmets")
                         
-                        LazyHGrid(columns: gridLayout, spacing: 15, content: {
+                        LazyVGrid(columns: gridLayout, spacing: 15, content: {
                             ForEach(products) { product in
                                 ProductItemView(product: product)
                             } //: LOOP
@@ -51,7 +51,6 @@ struct ContentView: View {
 }
 
 // MARK: - PREVIEW
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
