@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    // MARK: - PROPERTIES
+    // MARK: - PROPERTY
     
     @EnvironmentObject var shop: Shop
     
@@ -28,6 +28,7 @@ struct ContentView: View {
                     ScrollView(.vertical, showsIndicators: false, content: {
                         VStack(spacing: 0) {
                             FeaturedTabView()
+                                .frame(height: UIScreen.main.bounds.width / 1.475) // This will fix the layout rendering priority issue by using the screen's aspect ratio.
                                 .padding(.vertical, 20)
                             
                             CategoryGridView()
@@ -63,12 +64,13 @@ struct ContentView: View {
             } else {
                 ProductDetailView()
             }
-        }//: ZSTACK
+        } //: ZSTACK
         .ignoresSafeArea(.all, edges: .top)
     }
 }
 
 // MARK: - PREVIEW
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
